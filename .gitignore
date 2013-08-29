@@ -1,0 +1,10 @@
+.DS_Store
+bin/
+build/
+*.i*
+.classpath
+.project
+.springBeans
+.settings
+*.log
+vf.gf.*
