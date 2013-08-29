@@ -4,6 +4,7 @@ build/
 *.i*
 .classpath
 .project
+target/
 .springBeans
 .settings
 *.log

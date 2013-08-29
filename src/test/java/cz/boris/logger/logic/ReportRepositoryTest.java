@@ -23,7 +23,7 @@ public class ReportRepositoryTest extends AbstractTest {
 	@Test
 	public void getReports() {
 		List<Report> result = (List<Report>) reportRepository.findAll();
-		logger.info("Result FIRST: {}, {}", result.get(0).getId(), result.get(0).getDevice());
+		logger.info("Result first id: {}", result.get(0).getId());
 		assertNotNull(result);
 		assertEquals(2, result.size());
 	}
