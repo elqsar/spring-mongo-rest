@@ -21,5 +21,7 @@
 	</bean>
 
 	<mongo:repositories base-package="cz.boris.logger" />
-
+	
+	<repository:jackson-populator locations="classpath:data.json" />
+	
 </beans>

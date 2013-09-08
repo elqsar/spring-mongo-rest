@@ -10,6 +10,4 @@
 
 	<import resource="classpath:/META-INF/spring/app-context.xml" />
 
-	<repository:jackson-populator locations="classpath:data.json" />
-
 </beans>

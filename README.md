@@ -1,4 +1,4 @@
 spring-mongo-rest
 =================
 
-Spring Data Mongo demo
+Spring Data Mongo with Jersey demo.
